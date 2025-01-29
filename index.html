@@ -145,7 +145,7 @@
             <h1 class="eb-garamond font-bold text-[#414040] text-3xl">The Legal Practice Area</h1>
             <p class="poppins text-[#707070] text-xs pt-3">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
          </div>
-         <div class="cards mt-5 mx-16 md: grid grid-cols-3">
+         <div class="cards flex-col mt-5 mx-16 md: grid grid-cols-3">
           <div class="card  bg-base-100 border">
             <figure class="px-10 pt-10">
               <img src="/images/business.png" alt="" class="rounded-xl" />
@@ -329,12 +329,46 @@
          <div class="flex flex-col space-y-4">
           <input type="text" placeholder="Your Name" class="input input-bordered h-14 w-96" disabled />
           <input type="email" placeholder="Your Email" class="input input-bordered h-14 w-96" disabled />
-          <input type="text" placeholder="Subject" class="input input-bordered h-14 w-95" disabled />
-          <input type="text" placeholder="Message" class="input input-bordered h-44 w-96" disabled />
+          <input type="text" placeholder="Subject" class="input input-bordered h-16
+          w-96" disabled />
+          <input type="text" placeholder="Message" class="input input-bordered h-40 w-96" disabled />
           <button class="btn bg-btn-pmc text-white w-96">Send Message</button>
          </div>
         </div>
          </section>
     </main>
+    <footer class="footer text-white mt-16 bg-[#111111] p-10 text-base-content" style="background-image: url('images/Rectangle\ 7.png')">
+      <nav class="mx-4 ">
+        <img src="images/logo.png" alt="">
+        <p class="text-[#707070]">There are many variations of passages of <br> Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+      </nav> 
+      <nav>
+        <header class="font-bold text-white">Usefull Link</header> 
+        <a class="link link-hover text-[#707070]">Home</a> 
+        <a class="link link-hover text-[#707070]">About</a> 
+        <a class="link link-hover text-[#707070]">About</a> 
+        <a class="link link-hover text-[#707070]">Cases</a> 
+        <a class="link link-hover text-[#707070]">Blog</a> 
+        <a class="link link-hover text-[#707070]">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class="font-bold text-white">Contact Now</header> 
+        <p class="text-[#707070]">555 4th 5t NW, Washington <br>
+          DC 20530, United States</p>
+        <p class="text-[#707070]">+88 01750 000 000 <br>
+          +88 01750 000 000</p>
+        <p class="text-[#707070]">info@gmail.com <br>
+          info@gmail.com</p>
+      </nav> 
+      <form>
+        <header class="font-bold text-white">Subscribe</header> 
+        <p class="text-[#707070]">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+          <div class="relative">
+            <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+            <button class="btn bg-btn-pmc absolute top-0 right-0 rounded-l-none text-white"><i class="fa-regular fa-paper-plane"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
